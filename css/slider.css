@@ -1,0 +1,235 @@
+/*  start Main Rules */
+body{
+    background-color: #EEE;
+    color: red;
+    padding-bottom: 80px;
+   
+}
+/* Start navigation bar */
+ul#menu-classic-menu.nav.navbar-nav.navbar-right
+{
+   margin-right: 71px;  
+    padding-right: 155px; 
+    padding-left: 150px;
+/*    margin-left: 90px; */
+    
+}
+.navbar-header {
+    float: left;
+    text-align: right;
+        
+}
+.navbar-brand {float:right;}
+/* End navigation bar */
+/*  start Search */
+form{
+       /*padding-right: 195px; */
+      /* margin-left: 120px */
+    margin-right: 155px;
+}
+form #s{
+      margin-right: 4px;  
+}
+/* End Search*/
+/*  End Main Rules */
+/*  start footer */
+.footer{
+    
+    text-align: center;
+    background-color: #333;
+    color: #EEE;
+    padding : 20px;
+    position : absolute;
+    bottom: 0;
+    left : 0 ;
+    width: 100%;
+}
+/*  End footer */
+/*  start container */
+.container{
+    text-align: center;
+}
+/*  end container */
+/*  start Main posts */
+.home-page .main-post{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    margin: 10px;
+}
+.home-page .main-post h3 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    /*color:; */
+    color: #396b39;
+    letter-spacing: -1px
+}
+.home-page .main-post .post-author ,
+.home-page .main-post .post-date,
+.home-page .main-post .post-comments{
+    font-size: 12px;
+}
+.home-page .main-post img{
+    display : block;
+    margin : 10px 0 10px
+}
+.home-page .main-post .post-content{
+    line-height: 1.7;
+    color: #888;
+    
+}
+.home-page .post-pagination{
+    margin: 20px auto 30px;
+    text-align: center;
+    width: 400px;
+    display: inline;
+}
+.home-page .post-pagination a ,
+.home-page .post-pagination span{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: firebrick;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.home-page .post-pagination a:first-of-type{
+     margin: 10px;
+}
+.home-page .post-pagination span{
+    opacity: .5;
+    cursor: not-allowed;
+}
+/* End Main post */
+
+/* start singl post */
+.post-page .main-post{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    margin: 10px;
+    position :relative;
+}
+.post-page .main-post h3 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    color:dodgerblue;
+    letter-spacing: -1px
+}
+.post-page .main-post .post-author ,
+.post-page .main-post .post-date,
+.post-page .main-post .post-comments{
+    font-size: 12px;
+}
+.post-page .main-post img{
+    display : block;
+    margin : 10px 0 10px
+}
+.post-page .main-post .post-content{
+    line-height: 1.7;
+    color: #888;
+    
+}
+.post-page .post-pagination{
+    margin: 20px auto 30px;
+    text-align: center;
+    width: 400px;
+    display: inline;
+}
+.post-page .post-pagination a ,
+.post-page .post-pagination span{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: firebrick;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.post-page .post-pagination a:first-of-type{
+     margin-left: 10px;
+}
+.post-page .post-pagination span{
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.post-page .single-post .post-edit-link{
+    position : absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #EEE;
+    border-radius: 0 0 0 1 px
+}
+.post-page .single-post .post-edit-link i {
+    color:#337ab7;
+    margin-left : 5px
+}
+
+/* End single post */
+/* Start comments list */
+.comments-list ul,
+.comments-list ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* End comments list */
+
+
+/* contact form 7 style */
+.wpcf7{
+	text-align:center;
+}
+
+.wpcf7-form{
+	margin-bottom:10px;
+	margin-top:25px;
+}
+.wpcf7-textarea{
+	width:80%;
+	text-align:right;
+	
+}
+.wpcf7-text{
+	text-align:right;
+	width:80%;
+	padding-bottom:10px;
+	height:40px;
+	margin-bottom:10px;
+}
+.wpcf7-submit{
+padding: 10px 20px;
+    background-color: forestgreen;
+ border-radius: 5px;
+ color: aliceblue;
+margin-top:15px;
+}
+/* table */
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: center;
+  background-color: #03A9F4;
+}
+td{
+    background-color: #e0f4fd;
+}
+/* front-page */
+#carouselExampleIndicators{
+    margin-right: 175px;
+    margin-left:185px;
+}
+.carousel-item{
+    height: 500px;
+}
+span.carousel-control-prev-icon{
+    background-color: orange; 
+}
+span.carousel-control-next-icon{
+   background-color:  orange;
+}
